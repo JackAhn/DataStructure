@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\Sort">
       <UniqueIdentifier>{c3e36b93-2818-4aca-9f99-58674f826586}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Search">
+      <UniqueIdentifier>{46a7ce19-97a4-4734-bb86-729190600723}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BubbleSort.cpp">
@@ -35,6 +38,12 @@
     </ClCompile>
     <ClCompile Include="SelectedSort.cpp">
       <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>소스 파일\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>소스 파일\Search</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
