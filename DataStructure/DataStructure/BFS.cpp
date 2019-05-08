@@ -5,7 +5,7 @@
 using namespace std;
 
 int number = 7;
-int checked[7]; //방문 확인 배열
+int checked[8]; //방문 확인 배열
 vector<int> a[8]; //인덱스 1부터 하기 위해 8만큼 배열 생성
 
 void bfs(int start) {
