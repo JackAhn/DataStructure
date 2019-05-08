@@ -2,6 +2,12 @@
 
 using namespace std;
 
+// Ver 0.1 초기 버전 작성
+
+// Ver 0.2 같은 숫자를 대입한 경우 추가
+
+// Ver 0.3(예정) 홀수개의 숫자를 받거나 2의 배수가 아닌 숫자를 받는 경우
+
 int main(void) {
 	int much = 0;
 	cin >> much;
