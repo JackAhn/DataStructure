@@ -36,14 +36,6 @@ int main(void) {
 				answer[ind++] = arr[i];
 				i++;
 			}
-
-			else if (arr[i] == arr[j]) {
-				answer[ind++] = arr[i];
-				answer[ind++] = arr[j];
-				i++;
-				j++;
-			}
-
 			if (ct >= len) {
 				if (i == iflag) {
 					int c = 0;
@@ -76,7 +68,6 @@ int main(void) {
 		for (int i = 0; i < much; i++) {
 			arr[i] = answer[i];
 		}
-
 		len = mul;
 		mul *= 2;
 	}
